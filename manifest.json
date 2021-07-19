@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "leadjet_chrome_ext",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": ["*://*.google.com/*"],
+      "js": ["script.js"]
+    }
+  ]
+}
